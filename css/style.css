@@ -1,0 +1,15 @@
+/* Utilidades */
+@import "css/utilidades/global.css";
+@import "css/utilidades/cores.css";
+@import "css/utilidades/tipografia.css";
+@import "css/utilidades/animacao.css";
+
+/* Conteúdo*/
+@import "css/conteudo/header.css";
+@import "css/conteudo/home.css";
+@import "css/conteudo/about.css";
+@import "css/conteudo/gallery.css";
+@import "css/conteudo/blog.css";
+@import "css/conteudo/testimonials.css";
+@import "css/conteudo/contact.css";
+@import "css/conteudo/footer.css";

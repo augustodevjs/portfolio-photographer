@@ -1,0 +1,125 @@
+.header-bg {
+    background-color: var(--cor-c13);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.header-menu a {
+    display: inline;
+    padding: 16px 0;
+}
+
+.header-menu a:hover {
+    color: var(--cor-c7);
+}
+
+.btn-mobile {
+    display: none;
+}
+
+@media(max-width:850px) {
+    .header-menu {
+        display: block;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 109px;
+        right: 0;
+        background-color: var(--cor-c13);
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    nav.mobile .header-menu {
+        height: 750px;
+        visibility: visible;
+    }
+
+    .header-menu a {
+        padding: 32px 0;
+        margin: 0 20px;
+        display: block;
+    }
+
+    .header-menu a:hover {
+        background-color: var(--cor-c10);
+        color: var(--cor-w);
+    }
+
+    .header-menu a:hover::after {
+        display: none;
+    }
+
+    .hamburguer {
+        display: block;
+        color: var(--cor-w);
+        border-top: 2px solid;
+        width: 28px;
+        cursor: pointer;
+    }
+
+    .hamburguer::after, .hamburguer::before {
+        content: '';
+        display: block;
+        width: 28px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    nav.mobile .hamburguer {
+        border-top-color: transparent;
+    }
+
+    nav.mobile .hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    nav.mobile .hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px; 
+    }
+}
+
+@media(max-width:750px) {
+    nav.mobile .header-menu {
+        height: 630px;
+        visibility: visible;
+    }
+}
+
+@media(max-width:480px) {
+    nav.mobile .header-menu {
+        height: 530px;
+        visibility: visible;
+    }
+}
+
+@media(max-width:340px) {
+    nav.mobile .header-menu {
+        height: 600px;
+        visibility: visible;
+    }
+}
+
+@media(max-width:295px) {
+    nav.mobile .header-menu {
+        height: 650px;
+        visibility: visible;
+    }
+}
