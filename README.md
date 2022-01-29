@@ -19,7 +19,7 @@ O site é composto por 6 seções diferentes:
 
 ---
 
-## 💼 Tecnologias utilizadas
+### 💼 Tecnologias utilizadas
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 - HTML;
