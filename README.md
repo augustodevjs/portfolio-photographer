@@ -3,38 +3,38 @@
 
 <hr>
 
-### 📚 Sobre
+### 📚 About
 
-Portfólio fictício de fotografia criado com os conhecimentos do curso da Origamid.
+Fictional Photography Portfolio created with the knowledge gained from the Origamid course.
 
-### 📰 Seções
-O site é composto por 6 seções diferentes:
+### 📰 Sections
+The website consists of 6 different sections:
 
-- **Home:** Nele temos uma breve apresentação do fotógrafo;
-- **About me:** Nessa seção tem uma descrição sobre a vida do fotógrafo e quem seria ele;
-- **Gallery:** Apresenta alguns trabalhos de fotografia como: fotos de prédios, natureza, landscapes e etc;
-- **Blog:** Nessa região é mostrado o blog pessoal do fotográfo com temas sobre a vida dele;
-- **Testimonials:** Aqui é mostrado todos as reviews feitos pelo seus clientes;
-- **Contact me:** E por último é mostrado uma região para entrar em contato com o stevan;
+- **Home:** It features a brief introduction of the photographer;
+- **About me:** This section provides a description of the photographer's life and who they are;
+- **Gallery:**  It showcases some photography works such as building photos, nature, landscapes, etc;
+- **Blog:** This region displays the photographer's personal blog with topics about their life;
+- **Testimonials:** All the reviews from their clients are shown;
+- **Contact me:** Lastly, there's a section to get in touch with Stevan.
 
 ---
 
-### 💼 Tecnologias utilizadas
-Para o desenvolvimento deste site utilizei as seguintes tecnologias:
+### 💼 Tecnologies Used
+For the development of this website, I used the following technologies:
 
 - HTML;
-- CSS (usei o clean-css para otimizar o código e fiz o responsivo);
-- JavaScript (utilizei módulos para organizar mais o código js);
+- CSS 
+- JavaScript 
 - Figma;
 
 ---
 
-### :airplane: Acesse o projeto
+### :airplane: Access the project
 
-Hospedado no Netlify
+Hosted on Netlify
 
 https://stevan-klafer-portfolio.netlify.app/
 
-Arquivo do Figma
+Figma File
 
 https://www.figma.com/file/PH0aGbDrqll5T2VAxl65na/S.klafer?node-id=0%3A1
